@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 *{
     margin: 0px;
+    outline: none;
 }
 .group-set{
     padding: 10px;
@@ -13,9 +15,28 @@
     background-color: rgb(72, 72, 255);
     color: #fff;
     border: none;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 9px;
+    box-sizing: none;
+    margin-left: -4px;
+
 }
 .group-set button:hover{
     background-color: rgb(92, 92, 255);
+}
+.group-set input {
+    padding: 7px;
+    margin-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #999;
+    border-right: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-set button{
+    background-color: rgb(72, 72, 255);
+    border: none;
+    padding: 9px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
 }
