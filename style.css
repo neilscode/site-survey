@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+.group-set{
+    padding: 10px;
+}
+.group-set label{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+.group-set button{
+    background-color: rgb(72, 72, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.group-set button:hover{
+    background-color: rgb(92, 92, 255);
+}
