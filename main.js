@@ -33,5 +33,7 @@ clearValues.onclick = function(){
     inputs.forEach(input => {
         input.value = '';
     })
-    localStorage.clear();
+    ids.forEach(elementID => {
+        localStorage.removeItem(elementID);
+    })
 }
